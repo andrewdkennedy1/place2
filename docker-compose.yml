@@ -21,3 +21,4 @@ services:
       - "27017"
 volumes:
   mongo-volume:
+  config:
