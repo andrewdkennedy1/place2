@@ -5,7 +5,7 @@ LABEL maintainer="applebetas@dynastic.co"
 WORKDIR /usr/src/app
 
 # Copy over package.json (and package-lock.json, if applicable)
-COPY package*.json yarn.lock ./
+COPY package*.json ./
 
 # Install app dependencies
 RUN yarn install --verbose
