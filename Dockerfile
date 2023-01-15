@@ -8,10 +8,10 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 # Install app dependencies
-RUN yarn install --verbose
+# RUN yarn install --verbose
 
 # Bundle app source
-COPY . .
+# COPY . .
 
-EXPOSE 3000
-CMD [ "yarn", "start" ]
+# EXPOSE 3000
+# CMD [ "yarn", "start" ]
